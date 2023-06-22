@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navMenu {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 8px;
+    text-align: center;
+    margin: 7px auto;
+    width: fit-content;
+}
+
+.navMenu a {
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px;
+}
+
+.background {
+    background-color: #ece5f0;
+}
+
+.border {
+    border: 1px solid #cccccc;
+
+}

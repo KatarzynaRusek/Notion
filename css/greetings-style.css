@@ -1,0 +1,67 @@
+body {
+    background-color: #fff;
+    line-height: 1.6;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+/*CSS START*/
+
+.full-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card {
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    background: #bdbdbd;
+    width: 85vw;
+    color: #fff;
+    display: inline-block;
+    box-shadow: 2px 2px 1px 0px #989798;
+}
+
+.clock {
+    display: inline;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+
+}
+
+.time {
+    display: inline;
+    min-width: 37px;
+}
+
+.colon {
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+.date {
+    display: inline;
+    min-width: 162px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+.greet {
+
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    padding-right: 30px;
+}
