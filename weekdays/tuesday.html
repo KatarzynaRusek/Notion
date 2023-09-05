@@ -25,7 +25,7 @@
         <div class="table-cell">
 
             <div class="card">
-                <div class="weekday" id="weekday">Monday</div>
+                <div class="weekday" id="weekday">Tuesday</div>
                 <div class="date" id="date"></div>
             </div>
 
@@ -43,8 +43,8 @@
             }
 
             const monday = {
-                day: zeros(getDateForDay(1).getDate()),
-                month: zeros(getDateForDay(1).getMonth()),
+                day: zeros(getDateForDay(2).getDate()),
+                month: zeros(getDateForDay(2).getMonth()),
             }
 
             document.getElementById('date').innerHTML = `${monday.day}.${monday.month}`;
