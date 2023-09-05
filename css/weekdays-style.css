@@ -1,5 +1,5 @@
 body {
-    line-height: 1.6;
+    line-height: 1;
 
 }
 
@@ -26,7 +26,8 @@ h1 {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
     background: #bdbdbd;
-    width: 85vw;
+    width: 200px;
+    height: 30px;
     color: #fff;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #989798;
@@ -37,7 +38,7 @@ h1 {
     min-width: 162px;
     font-family: 'Dancing Script', cursive;
     font-size: 1.8em;
-    padding-right: 10px;
+    /* padding-right: 30px; */
 }
 
 .weekday {
@@ -45,5 +46,5 @@ h1 {
     display: inline;
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
-    padding-right: 30px;
+    padding-right: 10px;
 }
