@@ -26,25 +26,25 @@ h1 {
     padding: 10px 25px 10px 25px;
     border-radius: 7px;
     background: #bdbdbd;
-    min-width: 110px;
+    min-width: 100px;
     max-height: 30px;
     color: #fff;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #989798;
 }
 
-.date {
-    display: inline;
-    min-width: 162px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 0.8em;
-    /* padding-right: 30px; */
-}
-
 .weekday {
 
     display: inline;
     font-family: 'Dancing Script', cursive;
-    font-size: 1em;
+    font-size: 0.9em;
     padding-right: 5px;
+}
+
+.date {
+    display: inline;
+    min-width: 162px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 0.7em;
+    /* padding-right: 30px; */
 }
