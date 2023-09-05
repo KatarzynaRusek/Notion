@@ -1,0 +1,67 @@
+<!-- original : https://codepen.io/SeanNorton/pen/LWBXQL -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Bebas+Neue" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greeting2</title>
+
+    <link rel="stylesheet" href="../css/weekdays-style.css">
+    <style>
+        .card {
+            background: #789cf4;
+            box-shadow: 2px 2px 1px 0px #435788;
+        }
+    </style>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700" rel="stylesheet">
+
+    <div class="full-table">
+        <div class="table-cell">
+
+            <div class="card">
+                <div class="weekday" id="weekday">Monday</div>
+                <div class="date-monday date" id="date-monday"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const date = () => {
+            const today = new Date();
+            const weekStart = new Date(today.setDate(today.getDate()
+                - today.getDay()));
+
+            const getDateForDay = (days) => {
+                return new Date(weekStart.setDate(weekStart.getDate() + days))
+            }
+
+            const monday = {
+                day: zeros(getDateForDay(1).getDate()),
+                month: zeros(getDateForDay(1).getMonth()),
+            }
+
+            document.getElementById('date-monday').innerHTML = `${monday.day}.${monday.month}`;
+
+        }
+
+        // adds zero infront of single digit number
+        const zeros = (num) => {
+            if (num < 10) {
+                num = '0' + num
+            };
+            return num;
+        }
+
+        date();
+    </script>
+
+</body>
+
+</html>
